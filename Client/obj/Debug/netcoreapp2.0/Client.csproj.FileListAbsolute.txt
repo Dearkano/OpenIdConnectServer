@@ -1,0 +1,11 @@
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\Client\bin\Debug\netcoreapp2.0\Client.deps.json
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\Client\bin\Debug\netcoreapp2.0\Client.runtimeconfig.json
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\Client\bin\Debug\netcoreapp2.0\Client.runtimeconfig.dev.json
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\Client\bin\Debug\netcoreapp2.0\Client.dll
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\Client\bin\Debug\netcoreapp2.0\Client.pdb
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\Client\obj\Debug\netcoreapp2.0\Client.csprojAssemblyReference.cache
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\Client\obj\Debug\netcoreapp2.0\Client.csproj.CoreCompileInputs.cache
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\Client\obj\Debug\netcoreapp2.0\Client.AssemblyInfoInputs.cache
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\Client\obj\Debug\netcoreapp2.0\Client.AssemblyInfo.cs
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\Client\obj\Debug\netcoreapp2.0\Client.dll
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\Client\obj\Debug\netcoreapp2.0\Client.pdb
