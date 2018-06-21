@@ -7,12 +7,12 @@ using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace Client
+namespace ResourceOwnerClient
 {
     public class Program
     {
         public static void Main(string[] args) => MainAsync().GetAwaiter().GetResult();
-        
+
         private static async Task MainAsync()
         {
             // discover endpoints from metadata
@@ -24,12 +24,13 @@ namespace Client
             }
 
             // request token
-            var tokenClient = new TokenClient(disco.TokenEndpoint, "ro.client", "secret");
-            var tokenResponse = await tokenClient.RequestClientCredentialsAsync("api1");
+            var tokenClient = new TokenClient(disco.TokenEndpoint, "client", "secret");
+            var tokenResponse = await tokenClient.RequestResourceOwnerPasswordAsync("201806212226", "123456", "api1");
 
             if (tokenResponse.IsError)
             {
                 Console.WriteLine(tokenResponse.Error);
+                Console.ReadLine();
                 return;
             }
 
@@ -47,9 +48,10 @@ namespace Client
             }
             else
             {
-                var content = await response.Content.ReadAsStringAsync();
+                var content = response.Content.ReadAsStringAsync().Result;
                 Console.WriteLine(JArray.Parse(content));
             }
+            Console.ReadLine();
         }
     }
 }
