@@ -1,0 +1,11 @@
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\IdentityServer\bin\Release\netcoreapp2.0\IdentityServer.deps.json
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\IdentityServer\bin\Release\netcoreapp2.0\IdentityServer.runtimeconfig.json
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\IdentityServer\bin\Release\netcoreapp2.0\IdentityServer.runtimeconfig.dev.json
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\IdentityServer\bin\Release\netcoreapp2.0\IdentityServer.dll
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\IdentityServer\bin\Release\netcoreapp2.0\IdentityServer.pdb
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\IdentityServer\obj\Release\netcoreapp2.0\IdentityServer.csprojAssemblyReference.cache
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\IdentityServer\obj\Release\netcoreapp2.0\IdentityServer.csproj.CoreCompileInputs.cache
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\IdentityServer\obj\Release\netcoreapp2.0\IdentityServer.AssemblyInfoInputs.cache
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\IdentityServer\obj\Release\netcoreapp2.0\IdentityServer.AssemblyInfo.cs
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\IdentityServer\obj\Release\netcoreapp2.0\IdentityServer.dll
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\IdentityServer\obj\Release\netcoreapp2.0\IdentityServer.pdb

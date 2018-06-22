@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Cors.Internal;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Sakura.AspNetCore.Mvc;
 
 namespace QuickstartIdentityServer
 {
@@ -34,6 +35,10 @@ namespace QuickstartIdentityServer
             {
                 options.AddPolicy("AllowSpecificOrigin",
                     builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            });
+            services.AddMvc(options =>
+            {
+                options.EnableActionResultExceptionFilter(); // ActionResult 异常
             });
             services.AddMvc();
             services.Configure<MvcOptions>(options =>

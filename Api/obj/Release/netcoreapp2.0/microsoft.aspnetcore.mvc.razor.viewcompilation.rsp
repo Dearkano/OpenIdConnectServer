@@ -1,5 +1,5 @@
-C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\Api
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\Api
 --output-path=obj\Release\netcoreapp2.0\
 --application-name=Api
---content-root=C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\Api
+--content-root=C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\Api
 --file=

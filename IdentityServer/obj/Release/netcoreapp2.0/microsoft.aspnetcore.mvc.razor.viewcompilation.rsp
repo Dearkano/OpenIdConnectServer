@@ -1,5 +1,5 @@
-C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\QuickstartIdentityServer
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\IdentityServer
 --output-path=obj\Release\netcoreapp2.0\
---application-name=QuickstartIdentityServer
---content-root=C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\QuickstartIdentityServer
+--application-name=IdentityServer
+--content-root=C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\IdentityServer
 --file=

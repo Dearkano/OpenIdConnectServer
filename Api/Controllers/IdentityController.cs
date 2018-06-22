@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using System;
 using Newtonsoft.Json.Linq;
+using Api.Data;
+using Newtonsoft.Json;
 
 namespace Api.Controllers
 {
@@ -15,6 +17,12 @@ namespace Api.Controllers
    
     public class IdentityController : ControllerBase
     {
+        public MyDbContext dbContext;
+        public IdentityController(MyDbContext db)
+        {
+            dbContext = db;
+        }
+
         [HttpGet]
         [Authorize]
         public async Task<IActionResult> Get()
@@ -39,11 +47,23 @@ namespace Api.Controllers
                     bna = Convert.ToDouble(claims[i].Value);
                 }
             }
+            var accountIm = await (from i in dbContext.SecuritiesAccounts where i.Id == aid select i).FirstOrDefaultAsync();
+            var aType = accountIm.AccountType;
+            var pId = accountIm.PersonId;
+            var person = await (from i in dbContext.Persons where i.PersonId == pId select i).FirstOrDefaultAsync();
+            string jsonData = JsonConvert.SerializeObject(person);
             JObject json = new JObject();
             json.Add("id", id);
             json.Add("account_id", aid);
             json.Add("balance_available", ba);
             json.Add("balance_unavailable", bna);
+            json.Add("account_type", aType);
+            json.Add("person_id", person.PersonId);
+            json.Add("name", person.Name);
+            json.Add("sex", person.Sex);
+            json.Add("phone_number", person.PhoneNumber);
+            json.Add("address", person.Address);
+            json.Add("email", person.Email);
             return new JsonResult(json);
         }
     }

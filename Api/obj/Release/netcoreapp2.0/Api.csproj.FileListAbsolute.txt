@@ -9,3 +9,14 @@ C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_Re
 C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\Api\obj\Release\netcoreapp2.0\Api.AssemblyInfo.cs
 C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\Api\obj\Release\netcoreapp2.0\Api.dll
 C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\Api\obj\Release\netcoreapp2.0\Api.pdb
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\Api\bin\Release\netcoreapp2.0\Api.deps.json
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\Api\bin\Release\netcoreapp2.0\Api.runtimeconfig.json
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\Api\bin\Release\netcoreapp2.0\Api.runtimeconfig.dev.json
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\Api\bin\Release\netcoreapp2.0\Api.dll
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\Api\bin\Release\netcoreapp2.0\Api.pdb
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\Api\obj\Release\netcoreapp2.0\Api.csprojAssemblyReference.cache
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\Api\obj\Release\netcoreapp2.0\Api.csproj.CoreCompileInputs.cache
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\Api\obj\Release\netcoreapp2.0\Api.AssemblyInfoInputs.cache
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\Api\obj\Release\netcoreapp2.0\Api.AssemblyInfo.cs
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\Api\obj\Release\netcoreapp2.0\Api.dll
+C:\Users\VayneTian\source\repos\IdentityServer4.Samples-release\Quickstarts\2_ResourceOwnerPasswords\src\OpenIdConnectServer\Api\obj\Release\netcoreapp2.0\Api.pdb

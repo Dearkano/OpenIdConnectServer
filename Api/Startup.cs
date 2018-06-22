@@ -2,6 +2,7 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 using Microsoft.AspNetCore.Builder;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Api
@@ -10,6 +11,10 @@ namespace Api
     {
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<Data.MyDbContext>(options =>
+            {
+                options.UseMySql("Data Source=111.231.75.113,3306;Initial Catalog=zju;User ID=zju;Password=123456;");
+            });
             services.AddMvcCore()
                 .AddAuthorization()
                 .AddJsonFormatters();
